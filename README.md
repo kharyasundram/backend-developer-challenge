@@ -26,4 +26,6 @@ Once you are done, please share with us:
 
 * How to create/publish Discord bot? [Click here](https://www.google.com/search?q=steps+to+create+discord+bot)
 * How to search on google using API ? [Click here](https://www.google.com/search?q=google+search+api)
+* How to deploy Python App online? [Click here](https://devcenter.heroku.com/articles/getting-started-with-python)
+* How to deploy NodeJs App online? [Click here]( https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * How to create Repo in GitHub? [Click here](https://guides.github.com/activities/hello-world/) 
