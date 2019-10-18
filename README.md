@@ -1,24 +1,29 @@
 # Backend Developer Challenge
 
-Create a website that lets user browse top android apps. The website should contain
-two pages - landing page and a detail page. Please see Specs section below for UI details
+Assignment is to create a gaming bot and implement some basic commands. [Discord](https://discordapp.com/) Discord is a chat platform, it’s mostly used by gaming community. We want you to create a basic Discord bot. See the instructions below for the assignment.
 
-* On the landing page user will see a list of all top android apps. These apps will need to be scraped from Google Play Store: https://play.google.com/store/apps/collection/topselling_free and stored in your website’s DB.
-* You need to show these apps on landing page by fetching from DB.
-* The landing page should also contain a button that will re-scrape all the data from the top apps page and update the entries in the DB.If new apps are available add them to your db, but do not delete the apps that have already been scraped but removed from
-the top apps page.
-* On clicking any app on the landing page of your website, user should be redirected to the detail page of your website where more information about the app will be shown.
-* You can show things like app name, package, icon, developer name, videos, screenshots etc.
-* The landing page and the detail page should be on different urls on the same domain. For example, www.yourwebsite.com/ and www.yourwebsite.com/appdetails?pkg=com.whatsapp
-* User should also be able to directly enter a url with app package and the website should show the details for that app package. For example - I should be able enter this url in the browser - www.yourwebsite.com/appdetails?pkg=com.supercell.brawlstars , and all the information regarding this app should be displayed on the page.
+# Instructions
 
+* Signup with discord (http://discordapp.com). 
+
+* Create a simple discord bot that would reply **hey** to your **hi**. 
+
+* Add functionality to discord bot to allow user to search on google through discord. If a user types **!google nodejs**, reply with top 5 links that you would get when you search **nodejs** on **google.com**
+
+* Implement functionality to search through your search history. If a user uses **!google** to search for **"nodejs"** **"apple games"** **"game of thrones"**, and after these searches, if user types **!recent** game, your bot should reply with **"apple games"** and **"game of thrones"**
+
+* Make user search history persistent. Use any storage system to store your searches, so that event when you kill your nodejs server and start again, your search history is maintained.
+
+* You canuse any languages like Python,Nodejs,Golang, etc to implement this.
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
-2. URL where you have hosted the project
+2. Share us the Discord bot name and details , so that we can add it to our server and try it out.
 
 # Specs
 
 # Need Help?
 
+* How to create/publish Discord bot? [Click here](https://www.google.com/search?q=steps+to+create+discord+bot)
+* How to search on google using API ? [Click here](https://www.google.com/search?q=google+search+api)
 * How to create Repo in GitHub? [Click here](https://guides.github.com/activities/hello-world/) 
