@@ -18,7 +18,7 @@ Assignment is to create a Discord bot and implement some basic commands. [Discor
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
-2. Share us the Discord bot name and details , so that we can add it to our server and try it out.
+2. Share us the Discord bot name and invite URL, so that we can add it to our server and try it out.
 
 # Specs
 
