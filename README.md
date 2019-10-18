@@ -1,6 +1,6 @@
 # Backend Developer Challenge
 
-Assignment is to create a gaming bot and implement some basic commands. [Discord](https://discordapp.com/) Discord is a chat platform, it’s mostly used by gaming community. We want you to create a basic Discord bot. See the instructions below for the assignment.
+Assignment is to create a Discord bot and implement some basic commands. [Discord](https://discordapp.com/) is a chat platform that's mostly used by the gaming community. See the instructions below for the assignment.
 
 # Instructions
 
@@ -8,13 +8,13 @@ Assignment is to create a gaming bot and implement some basic commands. [Discord
 
 * Create a simple discord bot that would reply **hey** to your **hi**. 
 
-* Add functionality to discord bot to allow user to search on google through discord. If a user types **!google nodejs**, reply with top 5 links that you would get when you search **nodejs** on **google.com**
+* Add functionality to allow a user to search on google through discord. If the user types **!google nodejs**, reply with top 5 links that you would get when you search **nodejs** on **google.com**
 
-* Implement functionality to search through your search history. If a user uses **!google** to search for **"nodejs"** **"apple games"** **"game of thrones"**, and after these searches, if user types **!recent** game, your bot should reply with **"apple games"** and **"game of thrones"**
+* Implement functionality to search through your search history. If a user uses **!google** to search for **"nodejs"** **"apple games"** **"game of thrones"**, and after these searches, if user types **!recent game**, your bot should reply with **"apple games"** and **"game of thrones"**
 
-* Make user search history persistent. Use any storage system to store your searches, so that event when you kill your nodejs server and start again, your search history is maintained.
+* Make user search history persistent. Use any storage system to store your searches, so even when you kill your nodejs server and start again, your search history is maintained.
 
-* You canuse any languages like Python,Nodejs,Golang, etc to implement this.
+* You can use any language like Python, Nodejs, Golang etc to implement this.
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
