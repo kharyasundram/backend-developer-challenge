@@ -16,11 +16,19 @@ Assignment is to create a Discord bot and implement some basic commands. [Discor
 
 * You can use any language like Python, Nodejs, Golang etc to implement this.
 
+# Deliverables
+
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
-2. Share us the Discord bot name and invite URL, so that we can add it to our server and try it out.
+2. Share us the Discord bot name and invite URL of the **bot**, so that we can add it to our server and try it out.
+3. **You have to deploy the bot on cloud for us to test** 
 
-# Specs
+
+# Important things
+
+* Modularize your code well. Putting everything in one file is not good.
+* Use external DB/cache to store the history. Storing on local files and local variables is not desirable.
+* Put proper comments in code , so that we can understand the function usage etc..
 
 # Need Help?
 
